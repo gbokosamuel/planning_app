@@ -7,7 +7,7 @@ const Onboarding = {
     const checklist = Data.getOnboardingChecklist();
     const saved = State.getOnboardingChecklist();
     const blenderProject = State.getBlenderProject();
-    const startDate = State.getStartDate() || Utils.todayStr();
+    const startDate = State.getStartDate() || '2026-07-02';
     const totalItems = [...(checklist.data || []), ...(checklist.creative || []), ...(checklist.languages || [])].length;
     const checkedCount = State.getOnboardingCheckedCount();
 
