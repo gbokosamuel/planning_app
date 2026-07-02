@@ -1,0 +1,80 @@
+/* ═══════════════════════════════════════════════════
+   PRINT STYLES — Export PDF
+   ═══════════════════════════════════════════════════ */
+
+@media print {
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  body {
+    background: #FFFFFF !important;
+    color: #1A1A1A !important;
+    font-size: 12pt;
+  }
+
+  #app {
+    max-width: 100%;
+    padding-bottom: 0;
+  }
+
+  .nav-bottom,
+  .timer-container,
+  .timer-controls,
+  .btn--complete,
+  .cockpit__resources-btn,
+  .backdrop,
+  .modal,
+  .toast,
+  .celebration {
+    display: none !important;
+  }
+
+  .view { display: block !important; }
+  .view:not(.active) { display: none !important; }
+
+  .card {
+    background: #F8F9FA !important;
+    border: 1px solid #DEE2E6 !important;
+    break-inside: avoid;
+  }
+
+  .section-label,
+  .badge {
+    color: #1A1A1A !important;
+    background: #E9ECEF !important;
+  }
+
+  .card__title,
+  .cockpit__sprint-title,
+  .sprint__title,
+  .progression__title,
+  h1, h2, h3 {
+    color: #1A1A1A !important;
+  }
+
+  .card__description,
+  .card__output,
+  p {
+    color: #495057 !important;
+  }
+
+  .xp-bar__track {
+    background: #DEE2E6 !important;
+  }
+
+  .progress-bar {
+    background: #DEE2E6 !important;
+  }
+
+  a {
+    color: #0066CC !important;
+    text-decoration: underline !important;
+  }
+
+  @page {
+    margin: 2cm;
+    size: A4;
+  }
+}

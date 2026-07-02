@@ -1,0 +1,248 @@
+/* ═══════════════════════════════════════════════════
+   PROGRESSION VIEW — Mur de Trophées
+   ═══════════════════════════════════════════════════ */
+
+.progression__header {
+  text-align: center;
+  margin-bottom: var(--space-32);
+}
+
+.progression__title {
+  font-size: var(--fs-title);
+  font-weight: var(--fw-bold);
+  margin-bottom: var(--space-8);
+}
+
+/* ── Streak ── */
+.progression__streak {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-16);
+  margin-bottom: var(--space-32);
+}
+
+.progression__streak-number {
+  font-size: 3rem;
+  font-weight: var(--fw-bold);
+  background: linear-gradient(135deg, var(--accent-data), var(--accent-creative));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.progression__streak-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.progression__streak-label {
+  font-size: var(--fs-small);
+  font-weight: var(--fw-semibold);
+  color: var(--text-primary);
+}
+
+.progression__streak-best {
+  font-size: var(--fs-label);
+  color: var(--text-muted);
+}
+
+/* ── GitHub Grid ── */
+.progression__grid-section {
+  margin-bottom: var(--space-32);
+}
+
+.progression__grid-title {
+  font-size: var(--fs-body);
+  font-weight: var(--fw-semibold);
+  margin-bottom: var(--space-16);
+  color: var(--text-secondary);
+}
+
+.progression__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 14px);
+  gap: 3px;
+  justify-content: center;
+}
+
+.progression__grid-cell {
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  background: var(--color-missed);
+  transition: all var(--transition-fast);
+  position: relative;
+}
+
+.progression__grid-cell.completed {
+  background: var(--color-success);
+}
+
+.progression__grid-cell.partial {
+  background: var(--color-partial);
+}
+
+.progression__grid-cell.future {
+  background: var(--bg-primary);
+  border: 1px solid var(--border-subtle);
+}
+
+.progression__grid-cell.today {
+  box-shadow: 0 0 0 2px var(--accent-data);
+}
+
+.progression__grid-cell:hover {
+  transform: scale(1.4);
+}
+
+.progression__grid-legend {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--space-8);
+  margin-top: var(--space-12);
+  font-size: var(--fs-label);
+  color: var(--text-muted);
+}
+
+.progression__grid-legend-swatch {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+}
+
+/* ── XP Bars ── */
+.progression__xp-section {
+  margin-bottom: var(--space-32);
+}
+
+.progression__xp-bars {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+}
+
+/* ── Sprints Completed ── */
+.progression__sprints-section {
+  margin-bottom: var(--space-32);
+}
+
+.progression__sprint-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-16);
+  padding: var(--space-16);
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  margin-bottom: var(--space-8);
+}
+
+.progression__sprint-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.progression__sprint-icon--completed {
+  background: rgba(34, 197, 94, 0.12);
+}
+
+.progression__sprint-icon--locked {
+  background: var(--bg-primary);
+  opacity: 0.5;
+}
+
+.progression__sprint-name {
+  font-size: var(--fs-small);
+  font-weight: var(--fw-semibold);
+  color: var(--text-primary);
+}
+
+.progression__sprint-date {
+  font-size: var(--fs-label);
+  color: var(--text-muted);
+}
+
+.progression__sprint-output {
+  font-size: var(--fs-label);
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+/* ── Badges ── */
+.progression__badges-section {
+  margin-bottom: var(--space-32);
+}
+
+.progression__badges-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-12);
+}
+
+.progression__badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-8);
+  padding: var(--space-16) var(--space-8);
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  text-align: center;
+  transition: all var(--transition-base);
+}
+
+.progression__badge.unlocked {
+  border-color: var(--accent-data);
+  box-shadow: 0 0 12px var(--accent-data-glow);
+}
+
+.progression__badge.locked {
+  opacity: 0.35;
+  filter: grayscale(1);
+}
+
+.progression__badge-icon {
+  font-size: 1.5rem;
+}
+
+.progression__badge-name {
+  font-size: var(--fs-label);
+  font-weight: var(--fw-semibold);
+  color: var(--text-primary);
+  line-height: 1.3;
+}
+
+/* ── Outputs List ── */
+.progression__outputs-section {
+  margin-bottom: var(--space-32);
+}
+
+.progression__output-item {
+  padding: var(--space-12) var(--space-16);
+  background: var(--bg-card);
+  border-left: 3px solid var(--accent-data);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  margin-bottom: var(--space-8);
+}
+
+.progression__output-text {
+  font-size: var(--fs-small);
+  color: var(--text-primary);
+}
+
+.progression__output-date {
+  font-size: var(--fs-label);
+  color: var(--text-muted);
+  margin-top: var(--space-4);
+}

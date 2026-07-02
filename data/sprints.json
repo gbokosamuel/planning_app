@@ -1,0 +1,1435 @@
+{
+  "sprints": [
+    {
+      "id": 1,
+      "title": "Git + Python avancé",
+      "duration_weeks": 2,
+      "challenge": "Publier sur GitHub un script Python qui analyse un vrai dataset CSV et répond à 5 questions.",
+      "dataset": {
+        "name": "Netflix Movies and TV Shows",
+        "url": "https://www.kaggle.com/datasets/shivamb/netflix-shows"
+      },
+      "track_data": {
+        "skills": [
+          "Git",
+          "GitHub",
+          "Dictionnaires Python",
+          "Fonctions",
+          "Fichiers CSV",
+          "Exceptions",
+          "Modules"
+        ],
+        "days": [
+          {
+            "week": 1,
+            "day_index": 0,
+            "day_name": "Mardi",
+            "task": "Installer Git. Créer premier repo GitHub. Faire le premier commit d'un fichier Python.",
+            "output": "Premier repo GitHub avec un fichier .py commité",
+            "creative_project": "blender",
+            "creative_task": "Modélisation — Chercher des références pour le produit. Préparer les blueprints de fond.",
+            "creative_output": "Moodboard et références"
+          },
+          {
+            "week": 1,
+            "day_index": 1,
+            "day_name": "Mercredi",
+            "task": "Exercice Codewars niveau 7 kyu sur les dictionnaires (.keys(), .values(), .items(), .get(), compréhensions). Versionner la solution sur GitHub.",
+            "output": "Solution Codewars poussée sur GitHub",
+            "creative_project": "graphisme",
+            "creative_task": "Concept — Recherche de noms et concept pour la marque fictive.",
+            "creative_output": "Concept de marque défini"
+          },
+          {
+            "week": 1,
+            "day_index": 2,
+            "day_name": "Jeudi",
+            "task": "Exercice Codewars sur les fonctions (def, return, *args, **kwargs). Commit + push.",
+            "output": "Exercice fonctions versionné",
+            "creative_project": "video",
+            "creative_task": "Concept — Définir le message et la structure de la vidéo 60s.",
+            "creative_output": "Plan de la vidéo"
+          },
+          {
+            "week": 1,
+            "day_index": 3,
+            "day_name": "Vendredi",
+            "task": "Lire un CSV avec open() sans Pandas. Extraire une colonne manuellement avec le module csv.",
+            "output": "Script qui lit un CSV et affiche une colonne",
+            "creative_project": "blender",
+            "creative_task": "Modélisation — Mettre en place la scène de base dans Blender et configurer les unités.",
+            "creative_output": "Scène de base créée"
+          },
+          {
+            "week": 1,
+            "day_index": 4,
+            "day_name": "Samedi",
+            "task": "Exercice Codewars sur la manipulation de fichiers (open, read, write). Commit.",
+            "output": "Exercice fichiers sur GitHub",
+            "creative_project": "graphisme",
+            "creative_task": "Concept — Création du moodboard (Couleurs, Typographies, Style).",
+            "creative_output": "Moodboard validé"
+          },
+          {
+            "week": 1,
+            "day_index": 5,
+            "day_name": "Dimanche",
+            "task": "Récupération : expliquer Git à voix haute (add → commit → push) sans regarder les notes. Réviser les concepts de la semaine.",
+            "output": "Restitution orale Git maîtrisée",
+            "creative_project": "video",
+            "creative_task": "Concept — Rédaction du script voix off (si présente) ou texte à l'écran.",
+            "creative_output": "Script finalisé"
+          },
+          {
+            "week": 2,
+            "day_index": 6,
+            "day_name": "Mardi",
+            "task": "Charger le dataset Netflix CSV. Répondre à la question 1 : quel pays produit le plus de contenu ? En Python pur.",
+            "output": "Réponse Q1 Netflix avec code Python",
+            "creative_project": "blender",
+            "creative_task": "Modélisation — Bloquer les formes primaires du produit (blockout).",
+            "creative_output": "Formes primaires modélisées"
+          },
+          {
+            "week": 2,
+            "day_index": 7,
+            "day_name": "Mercredi",
+            "task": "Répondre aux questions 2 et 3 sur le dataset Netflix.",
+            "output": "Réponses Q2 et Q3 codées",
+            "creative_project": "graphisme",
+            "creative_task": "Concept — Croquis rapides du logo sur papier.",
+            "creative_output": "Planche de croquis logo"
+          },
+          {
+            "week": 2,
+            "day_index": 8,
+            "day_name": "Jeudi",
+            "task": "Répondre aux questions 4 et 5 sur le dataset Netflix.",
+            "output": "Réponses Q4 et Q5 codées",
+            "creative_project": "video",
+            "creative_task": "Concept — Création du storyboard (sketch rapide de chaque scène).",
+            "creative_output": "Storyboard complet"
+          },
+          {
+            "week": 2,
+            "day_index": 9,
+            "day_name": "Vendredi",
+            "task": "Nettoyer le code. Ajouter des commentaires clairs. Organiser le script.",
+            "output": "Code propre et documenté",
+            "creative_project": "blender",
+            "creative_task": "Modélisation — Affiner les détails de la modélisation (Subdivision Surface).",
+            "creative_output": "Modèle détaillé"
+          },
+          {
+            "week": 2,
+            "day_index": 10,
+            "day_name": "Samedi",
+            "task": "Écrire le README GitHub : description du projet, résultats trouvés, comment lancer le script.",
+            "output": "README.md professionnel",
+            "creative_project": "graphisme",
+            "creative_task": "Concept — Sélection des 3 meilleurs concepts de logo.",
+            "creative_output": "3 concepts isolés"
+          },
+          {
+            "week": 2,
+            "day_index": 11,
+            "day_name": "Dimanche",
+            "task": "Publier le projet final sur GitHub. Récupération totale à voix haute.",
+            "output": "🏆 Projet Netflix publié sur GitHub",
+            "creative_project": "video",
+            "creative_task": "Ressources — Recherche de musiques libres de droits.",
+            "creative_output": "Musique principale sélectionnée"
+          }
+        ]
+      },
+      "resources": {
+        "data": [
+          {
+            "name": "Learn Git Branching",
+            "url": "https://learngitbranching.js.org",
+            "desc": "Interactif, visuel"
+          },
+          {
+            "name": "GitHub",
+            "url": "https://github.com",
+            "desc": "Créer un compte"
+          },
+          {
+            "name": "Codewars Python",
+            "url": "https://www.codewars.com/kata/search/python",
+            "desc": "Commencer kyu 7-8"
+          },
+          {
+            "name": "Exercism Python",
+            "url": "https://exercism.org/tracks/python",
+            "desc": "Track avec feedback"
+          },
+          {
+            "name": "Kaggle Learn Python",
+            "url": "https://www.kaggle.com/learn/python",
+            "desc": "Interactif, navigateur"
+          }
+        ],
+        "creative": [
+          {
+            "name": "Pinterest 3D Renders",
+            "url": "https://pinterest.com/search/pins/?q=3D%20product%20render%20blender",
+            "desc": "Inspiration visuelle"
+          },
+          {
+            "name": "PolyHaven",
+            "url": "https://polyhaven.com",
+            "desc": "Textures et HDRI gratuits"
+          },
+          {
+            "name": "CGFastTrack",
+            "url": "https://www.youtube.com/@CGFastTrack",
+            "desc": "Chaîne référence Blender"
+          }
+        ],
+        "git_commands": [
+          "git init",
+          "git add .",
+          "git commit -m \"\"",
+          "git push",
+          "git pull",
+          "git clone"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "title": "SQL avancé + Excel",
+      "duration_weeks": 2,
+      "challenge": "Construire une base PostgreSQL de Samuel Creative Studio et créer un rapport Excel avec les chiffres clés.",
+      "track_data": {
+        "skills": [
+          "JOINs complexes",
+          "Sous-requêtes",
+          "CTE",
+          "Fonctions de fenêtre",
+          "PostgreSQL",
+          "Excel TCD",
+          "XLOOKUP"
+        ],
+        "days": [
+          {
+            "week": 1,
+            "day_index": 0,
+            "day_name": "Mardi",
+            "task": "Installer PostgreSQL + DBeaver. Créer les tables clients, projets, paiements avec INSERT de données fictives.",
+            "output": "Base PostgreSQL Samuel Creative Studio créée",
+            "creative_project": "blender",
+            "creative_task": "Modélisation — Ajouter les petits détails géométriques (Biseaux, Booleans).",
+            "creative_output": "Modèle complet sans textures"
+          },
+          {
+            "week": 1,
+            "day_index": 1,
+            "day_name": "Mercredi",
+            "task": "Exercices pgexercises.com — section Joins. Puis CTE (WITH...AS) sur la base du studio.",
+            "output": "5 requêtes JOIN + 2 CTE résolues",
+            "creative_project": "graphisme",
+            "creative_task": "Logo — Début de la vectorisation sur Illustrator.",
+            "creative_output": "Tracés de base Illustrator"
+          },
+          {
+            "week": 1,
+            "day_index": 2,
+            "day_name": "Jeudi",
+            "task": "Sous-requêtes (WHERE IN, EXISTS, corrélées) sur pgexercises.com puis sur la base studio.",
+            "output": "Sous-requêtes maîtrisées avec exemples",
+            "creative_project": "video",
+            "creative_task": "Ressources — Recherche de vidéos stock ou de ressources personnelles.",
+            "creative_output": "Dossier de rushs"
+          },
+          {
+            "week": 1,
+            "day_index": 3,
+            "day_name": "Vendredi",
+            "task": "Exercices pgexercises.com — section Aggregates. GROUP BY, HAVING sur la base studio.",
+            "output": "Agrégations business sur les données studio",
+            "creative_project": "blender",
+            "creative_task": "Modélisation — Nettoyer la topologie pour éviter les artefacts de rendu.",
+            "creative_output": "Topologie propre"
+          },
+          {
+            "week": 1,
+            "day_index": 4,
+            "day_name": "Samedi",
+            "task": "Répondre aux questions business 1 et 2 : meilleur client + type de projet le plus long.",
+            "output": "Requêtes Q1 et Q2 fonctionnelles",
+            "creative_project": "graphisme",
+            "creative_task": "Logo — Utilisation du Pathfinder et affinement des formes.",
+            "creative_output": "Formes vectorielles nettes"
+          },
+          {
+            "week": 1,
+            "day_index": 5,
+            "day_name": "Dimanche",
+            "task": "Récupération : expliquer la différence entre CTE, sous-requête et JOIN à voix haute.",
+            "output": "Restitution orale SQL",
+            "creative_project": "video",
+            "creative_task": "Montage — Créer le projet Premiere Pro et organiser les chutiers.",
+            "creative_output": "Projet bien structuré"
+          },
+          {
+            "week": 2,
+            "day_index": 6,
+            "day_name": "Mardi",
+            "task": "Fonctions de fenêtre : ROW_NUMBER, RANK, PARTITION BY. Répondre à Q3 (projets en retard).",
+            "output": "Requête fenêtre + Q3 résolue",
+            "creative_project": "blender",
+            "creative_task": "Modélisation — Dépliage UV du modèle (Unwrap) - Partie 1.",
+            "creative_output": "UVs principaux dépliés"
+          },
+          {
+            "week": 2,
+            "day_index": 7,
+            "day_name": "Mercredi",
+            "task": "LAG/LEAD : comparer CA mois vs mois-1. Répondre à Q4.",
+            "output": "Analyse temporelle CA avec LAG",
+            "creative_project": "graphisme",
+            "creative_task": "Logo — Créer les déclinaisons du logo (Noir/Blanc, Horizontal/Vertical).",
+            "creative_output": "Déclinaisons créées"
+          },
+          {
+            "week": 2,
+            "day_index": 8,
+            "day_name": "Jeudi",
+            "task": "Répondre à Q5 (Top 3 clients). EXPLAIN pour optimiser. Index.",
+            "output": "Q5 + requêtes optimisées",
+            "creative_project": "video",
+            "creative_task": "Montage — Dérushage : sélectionner les meilleures parties des vidéos.",
+            "creative_output": "Séquence de dérushage"
+          },
+          {
+            "week": 2,
+            "day_index": 9,
+            "day_name": "Vendredi",
+            "task": "Exporter les résultats en CSV. Ouvrir dans Excel. Créer un TCD sur les revenus.",
+            "output": "Premier TCD Excel fonctionnel",
+            "creative_project": "blender",
+            "creative_task": "Modélisation — Dépliage UV du modèle - Partie 2.",
+            "creative_output": "Dépliage UV complet"
+          },
+          {
+            "week": 2,
+            "day_index": 10,
+            "day_name": "Samedi",
+            "task": "XLOOKUP, SIERREUR, mise en forme conditionnelle. Graphiques intégrés.",
+            "output": "Rapport Excel avec graphiques",
+            "creative_project": "graphisme",
+            "creative_task": "Logo — Choix de la palette de couleurs finale et application.",
+            "creative_output": "Logo colorisé"
+          },
+          {
+            "week": 2,
+            "day_index": 11,
+            "day_name": "Dimanche",
+            "task": "Finaliser le rapport Excel. Protection de feuille. Récupération.",
+            "output": "🏆 Rapport Excel Samuel Creative Studio finalisé",
+            "creative_project": "video",
+            "creative_task": "Montage — Placer la musique sur la timeline et marquer les temps forts.",
+            "creative_output": "Marqueurs de rythme placés"
+          }
+        ]
+      },
+      "resources": {
+        "data": [
+          {
+            "name": "SQLZoo",
+            "url": "https://sqlzoo.net/wiki/SQL_Tutorial",
+            "desc": "SELECT → JOIN → Aggregates"
+          },
+          {
+            "name": "pgExercises",
+            "url": "https://pgexercises.com",
+            "desc": "PostgreSQL spécifique"
+          },
+          {
+            "name": "LeetCode SQL",
+            "url": "https://leetcode.com/problemset/database",
+            "desc": "Commencer Easy"
+          },
+          {
+            "name": "ExcelJet",
+            "url": "https://exceljet.net/functions",
+            "desc": "Référence XLOOKUP, TCD"
+          }
+        ],
+        "creative": [
+          {
+            "name": "Behance",
+            "url": "https://www.behance.net",
+            "desc": "Inspiration design à reproduire"
+          },
+          {
+            "name": "LogoMoose",
+            "url": "https://www.logomoose.com",
+            "desc": "Logos à vectoriser"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "Pandas + NumPy",
+      "duration_weeks": 2,
+      "challenge": "Analyser le dataset World Happiness Report avec Pandas, répondre à 8 questions analytiques, exporter les résultats.",
+      "dataset": {
+        "name": "World Happiness Report",
+        "url": "https://www.kaggle.com/datasets/unsdsn/world-happiness"
+      },
+      "track_data": {
+        "skills": [
+          "Pandas",
+          "NumPy",
+          "read_csv",
+          "groupby",
+          "merge",
+          "pivot_table",
+          "vectorisation",
+          "broadcasting"
+        ],
+        "days": [
+          {
+            "week": 1,
+            "day_index": 0,
+            "day_name": "Mardi",
+            "task": "Installer Pandas/NumPy. Charger le dataset Happiness. head(), describe(), info(), dtypes.",
+            "output": "Exploration initiale du dataset",
+            "creative_project": "blender",
+            "creative_task": "Matériaux — Découverte et application des matériaux de base (BSDF Principled).",
+            "creative_output": "Couleurs de base appliquées"
+          },
+          {
+            "week": 1,
+            "day_index": 1,
+            "day_name": "Mercredi",
+            "task": "loc/iloc, filtrage conditionnel, tri. Répondre aux questions 1-2.",
+            "output": "Sélections et filtres maîtrisés",
+            "creative_project": "graphisme",
+            "creative_task": "Logo — Nettoyage du fichier et préparation pour l'export.",
+            "creative_output": "Fichiers vectoriels finaux"
+          },
+          {
+            "week": 1,
+            "day_index": 2,
+            "day_name": "Jeudi",
+            "task": "groupby + agg. Répondre aux questions 3-4.",
+            "output": "Agrégations Pandas",
+            "creative_project": "video",
+            "creative_task": "Montage — Faire un premier montage cut (bout à bout) synchronisé au son.",
+            "creative_output": "Ours (premier montage)"
+          },
+          {
+            "week": 1,
+            "day_index": 3,
+            "day_name": "Vendredi",
+            "task": "fillna, dropna, drop_duplicates, apply/lambda. Nettoyage complet du dataset.",
+            "output": "Dataset nettoyé",
+            "creative_project": "blender",
+            "creative_task": "Matériaux — Créer des matériaux complexes avec des nodes (Roughness, Metallic).",
+            "creative_output": "Matériaux PBR basiques"
+          },
+          {
+            "week": 1,
+            "day_index": 4,
+            "day_name": "Samedi",
+            "task": "10 puzzles du repo 100 Pandas Puzzles (sans regarder les solutions).",
+            "output": "10 puzzles résolus",
+            "creative_project": "graphisme",
+            "creative_task": "Charte — Création du document de charte graphique - Grille et logo.",
+            "creative_output": "Page logo terminée"
+          },
+          {
+            "week": 1,
+            "day_index": 5,
+            "day_name": "Dimanche",
+            "task": "Récupération : expliquer groupby et merge à voix haute.",
+            "output": "Restitution orale Pandas",
+            "creative_project": "video",
+            "creative_task": "Montage — Affiner les coupes (J-Cuts, L-Cuts) et le rythme.",
+            "creative_output": "Montage affiné"
+          },
+          {
+            "week": 2,
+            "day_index": 6,
+            "day_name": "Mardi",
+            "task": "NumPy : array, shape, reshape, slicing. Opérations vectorisées.",
+            "output": "Exercices NumPy de base",
+            "creative_project": "blender",
+            "creative_task": "Matériaux — Utiliser des textures téléchargées (PolyHaven).",
+            "creative_output": "Textures appliquées"
+          },
+          {
+            "week": 2,
+            "day_index": 7,
+            "day_name": "Mercredi",
+            "task": "NumPy : broadcasting, mean/std/sum. Répondre aux questions 5-6.",
+            "output": "Calculs statistiques NumPy",
+            "creative_project": "graphisme",
+            "creative_task": "Charte — Ajout des typographies et règles d'utilisation.",
+            "creative_output": "Page typo terminée"
+          },
+          {
+            "week": 2,
+            "day_index": 8,
+            "day_name": "Jeudi",
+            "task": "merge/join Pandas, pivot_table, melt. Répondre aux questions 7-8.",
+            "output": "Transformations avancées",
+            "creative_project": "video",
+            "creative_task": "Motion — Créer les titrages de base dans Premiere ou After Effects.",
+            "creative_output": "Titres ajoutés"
+          },
+          {
+            "week": 2,
+            "day_index": 9,
+            "day_name": "Vendredi",
+            "task": "10 puzzles supplémentaires du repo 100 Pandas Puzzles.",
+            "output": "20 puzzles total résolus",
+            "creative_project": "blender",
+            "creative_task": "Matériaux — Peindre des détails sur le modèle (Texture Painting).",
+            "creative_output": "Détails peints"
+          },
+          {
+            "week": 2,
+            "day_index": 10,
+            "day_name": "Samedi",
+            "task": "Nettoyer l'analyse complète. Exporter les résultats. Documenter.",
+            "output": "Analyse Happiness Report propre",
+            "creative_project": "graphisme",
+            "creative_task": "Charte — Ajout de la palette de couleurs (RVB, CMJN, HEX).",
+            "creative_output": "Page couleurs terminée"
+          },
+          {
+            "week": 2,
+            "day_index": 11,
+            "day_name": "Dimanche",
+            "task": "Publier l'analyse sur GitHub. Récupération.",
+            "output": "🏆 Analyse World Happiness publiée",
+            "creative_project": "video",
+            "creative_task": "Motion — Créer une composition After Effects pour l'intro.",
+            "creative_output": "Intro animée"
+          }
+        ]
+      },
+      "resources": {
+        "data": [
+          {
+            "name": "Kaggle Learn Pandas",
+            "url": "https://www.kaggle.com/learn/pandas",
+            "desc": "Interactif"
+          },
+          {
+            "name": "100 Pandas Puzzles",
+            "url": "https://github.com/ajcr/100-pandas-puzzles",
+            "desc": "Puzzles sans solutions"
+          }
+        ],
+        "creative": [
+          {
+            "name": "Behance",
+            "url": "https://www.behance.net",
+            "desc": "Inspiration Photoshop"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "Pont mathématique",
+      "duration_weeks": 2,
+      "challenge": "Implémenter une régression linéaire à la main avec NumPy (sans sklearn), la tester, puis vérifier avec sklearn.",
+      "track_data": {
+        "skills": [
+          "Probabilités",
+          "Algèbre linéaire",
+          "Statistiques",
+          "Régression linéaire",
+          "Tests d'hypothèse"
+        ],
+        "days": [
+          {
+            "week": 1,
+            "day_index": 0,
+            "day_name": "Mardi",
+            "task": "Probabilités : espace probabiliste, P(A∩B), P(A∪B), probabilité conditionnelle. Coder 3 exemples.",
+            "output": "3 exercices proba codés en Python",
+            "creative_project": "blender",
+            "creative_task": "Matériaux — Ajuster le Bump et le Displacement mapping.",
+            "creative_output": "Relief et détails de surface"
+          },
+          {
+            "week": 1,
+            "day_index": 1,
+            "day_name": "Mercredi",
+            "task": "Variables aléatoires : espérance, variance. Lois normale et binomiale. Simuler avec NumPy.",
+            "output": "Simulations de lois avec NumPy",
+            "creative_project": "graphisme",
+            "creative_task": "Charte — Définition du style photographique de la marque.",
+            "creative_output": "Style iconographique défini"
+          },
+          {
+            "week": 1,
+            "day_index": 2,
+            "day_name": "Jeudi",
+            "task": "Théorème Central Limite : simuler avec 1000 échantillons. Visualiser la convergence.",
+            "output": "Visualisation TCL",
+            "creative_project": "video",
+            "creative_task": "Motion — Animer le logo du studio dans After Effects.",
+            "creative_output": "Animation logo"
+          },
+          {
+            "week": 1,
+            "day_index": 3,
+            "day_name": "Vendredi",
+            "task": "Algèbre linéaire : vecteurs, norme, produit scalaire. Coder avec NumPy.",
+            "output": "Opérations vectorielles codées",
+            "creative_project": "blender",
+            "creative_task": "Matériaux — Finaliser tous les matériaux du produit.",
+            "creative_output": "Produit entièrement texturé"
+          },
+          {
+            "week": 1,
+            "day_index": 4,
+            "day_name": "Samedi",
+            "task": "Matrices : multiplication, transposée, système d'équations. np.linalg.solve.",
+            "output": "Résolution de systèmes matriciels",
+            "creative_project": "graphisme",
+            "creative_task": "Charte — Finalisation et export de la charte en PDF.",
+            "creative_output": "Charte graphique PDF"
+          },
+          {
+            "week": 1,
+            "day_index": 5,
+            "day_name": "Dimanche",
+            "task": "Récupération : expliquer le lien entre matrices et régression (y = Xw) à voix haute.",
+            "output": "Restitution orale algèbre/régression",
+            "creative_project": "video",
+            "creative_task": "Motion — Créer des transitions personnalisées ou des effets graphiques.",
+            "creative_output": "Transitions fluides"
+          },
+          {
+            "week": 2,
+            "day_index": 6,
+            "day_name": "Mardi",
+            "task": "Stats descriptives : moyenne, médiane, écart-type, quartiles. Corrélation Pearson/Spearman.",
+            "output": "Stats descriptives sur un vrai dataset",
+            "creative_project": "blender",
+            "creative_task": "Éclairage — Mettre en place un éclairage 3 points classique.",
+            "creative_output": "Éclairage 3 points"
+          },
+          {
+            "week": 2,
+            "day_index": 7,
+            "day_name": "Mercredi",
+            "task": "Tests d'hypothèse : H0/H1, p-value, t-test. Coder un t-test avec scipy.",
+            "output": "Premier test d'hypothèse codé",
+            "creative_project": "graphisme",
+            "creative_task": "Affiche — Recherche d'idées pour l'affiche publicitaire.",
+            "creative_output": "Concept d'affiche"
+          },
+          {
+            "week": 2,
+            "day_index": 8,
+            "day_name": "Jeudi",
+            "task": "Implémenter la régression linéaire : w = np.linalg.inv(X.T @ X) @ X.T @ y. Tester sur un dataset.",
+            "output": "Régression linéaire from scratch",
+            "creative_project": "video",
+            "creative_task": "Motion — Intégrer les compositions After Effects via Dynamic Link.",
+            "creative_output": "Projet Premiere lié"
+          },
+          {
+            "week": 2,
+            "day_index": 9,
+            "day_name": "Vendredi",
+            "task": "Refaire la même régression avec sklearn. Comparer les résultats. Documenter les différences.",
+            "output": "Comparaison manuelle vs sklearn",
+            "creative_project": "blender",
+            "creative_task": "Éclairage — Utiliser un HDRI pour des reflets réalistes.",
+            "creative_output": "Éclairage par image (HDRI)"
+          },
+          {
+            "week": 2,
+            "day_index": 10,
+            "day_name": "Samedi",
+            "task": "Chi², ANOVA : comprendre et coder un exemple de chaque.",
+            "output": "Tests Chi² et ANOVA codés",
+            "creative_project": "graphisme",
+            "creative_task": "Affiche — Mise en page de l'affiche sur Photoshop ou Illustrator.",
+            "creative_output": "Layout de l'affiche"
+          },
+          {
+            "week": 2,
+            "day_index": 11,
+            "day_name": "Dimanche",
+            "task": "Publier le notebook régression sur GitHub. Récupération.",
+            "output": "🏆 Régression linéaire manuelle publiée",
+            "creative_project": "video",
+            "creative_task": "Motion — Finaliser tous les éléments graphiques sur la vidéo.",
+            "creative_output": "Motion design complété"
+          }
+        ]
+      },
+      "resources": {
+        "data": [
+          {
+            "name": "3Blue1Brown Linear Algebra",
+            "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+            "desc": "MAX 5 min puis coder"
+          },
+          {
+            "name": "Khan Academy Probas",
+            "url": "https://fr.khanacademy.org/math/statistics-probability",
+            "desc": "Exercices, pas vidéos"
+          },
+          {
+            "name": "StatQuest",
+            "url": "https://www.youtube.com/@statquest",
+            "desc": "MAX 10 min par concept"
+          }
+        ],
+        "creative": [
+          {
+            "name": "Vimeo Staff Picks",
+            "url": "https://vimeo.com/channels/staffpicks",
+            "desc": "Inspiration montage"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "Visualisation + ML",
+      "duration_weeks": 3,
+      "challenge": "Participer à la compétition Kaggle Titanic et finir dans le top 50% du leaderboard.",
+      "dataset": {
+        "name": "Titanic Competition",
+        "url": "https://www.kaggle.com/competitions/titanic"
+      },
+      "track_data": {
+        "skills": [
+          "Matplotlib",
+          "Seaborn",
+          "Plotly",
+          "Régression logistique",
+          "Random Forest",
+          "XGBoost",
+          "SHAP",
+          "Cross-validation"
+        ],
+        "days": [
+          {
+            "week": 1,
+            "day_index": 0,
+            "day_name": "Mardi",
+            "task": "Matplotlib : figures, axes, subplots. Créer 3 graphiques sur un dataset connu.",
+            "output": "3 graphiques Matplotlib",
+            "creative_project": "blender",
+            "creative_task": "Éclairage — Créer un éclairage dramatique pour le produit (Rim light).",
+            "creative_output": "Lumière dramatique configurée"
+          },
+          {
+            "week": 1,
+            "day_index": 1,
+            "day_name": "Mercredi",
+            "task": "Seaborn : heatmap, boxplot, pairplot. Visualiser le dataset Titanic.",
+            "output": "Exploration visuelle Titanic",
+            "creative_project": "graphisme",
+            "creative_task": "Affiche — Intégration des images et du texte.",
+            "creative_output": "Affiche brouillon"
+          },
+          {
+            "week": 1,
+            "day_index": 2,
+            "day_name": "Jeudi",
+            "task": "Plotly : graphiques interactifs. Recréer les graphiques Seaborn en interactif.",
+            "output": "Dashboard interactif Plotly",
+            "creative_project": "video",
+            "creative_task": "Étalonnage — Importer le projet ou la timeline dans DaVinci Resolve.",
+            "creative_output": "Timeline dans Resolve"
+          },
+          {
+            "week": 1,
+            "day_index": 3,
+            "day_name": "Vendredi",
+            "task": "Feature engineering Titanic : encoder les catégorielles, gérer les valeurs manquantes, créer des features.",
+            "output": "Dataset Titanic préparé pour le ML",
+            "creative_project": "blender",
+            "creative_task": "Éclairage — Ajouter des lumières d'appoint colorées.",
+            "creative_output": "Éclairage d'ambiance coloré"
+          },
+          {
+            "week": 1,
+            "day_index": 4,
+            "day_name": "Samedi",
+            "task": "Régression logistique + arbre de décision. fit/predict/score. Premier score Kaggle.",
+            "output": "Première soumission Kaggle",
+            "creative_project": "graphisme",
+            "creative_task": "Affiche — Retouche des images et intégration du logo.",
+            "creative_output": "Affiche avancée"
+          },
+          {
+            "week": 1,
+            "day_index": 5,
+            "day_name": "Dimanche",
+            "task": "Récupération : expliquer la différence entre régression logistique et arbre de décision.",
+            "output": "Restitution orale ML basics",
+            "creative_project": "video",
+            "creative_task": "Étalonnage — Correction colorimétrique primaire (Balance des blancs, exposition).",
+            "creative_output": "Couleurs normalisées"
+          },
+          {
+            "week": 2,
+            "day_index": 6,
+            "day_name": "Mardi",
+            "task": "Random Forest : concept d'ensemble. Améliorer le score Titanic.",
+            "output": "Score Kaggle amélioré avec RF",
+            "creative_project": "blender",
+            "creative_task": "Render — Configurer les paramètres de rendu Cycles (Samples, Denoising).",
+            "creative_output": "Rendu test optimisé"
+          },
+          {
+            "week": 2,
+            "day_index": 7,
+            "day_name": "Mercredi",
+            "task": "XGBoost / LightGBM : gradient boosting. Nouveau score.",
+            "output": "Score Kaggle avec boosting",
+            "creative_project": "graphisme",
+            "creative_task": "Affiche — Effets visuels et finalisation de l'affiche.",
+            "creative_output": "Affiche terminée"
+          },
+          {
+            "week": 2,
+            "day_index": 8,
+            "day_name": "Jeudi",
+            "task": "Validation croisée k-fold. Comparer tous les modèles objectivement.",
+            "output": "Comparaison k-fold des modèles",
+            "creative_project": "video",
+            "creative_task": "Étalonnage — Color grading (Look créatif) avec les roues de couleurs.",
+            "creative_output": "Look cinématographique"
+          },
+          {
+            "week": 2,
+            "day_index": 9,
+            "day_name": "Vendredi",
+            "task": "Métriques : accuracy, F1, AUC-ROC, matrice de confusion. Analyser chaque modèle.",
+            "output": "Rapport de métriques complet",
+            "creative_project": "blender",
+            "creative_task": "Render — Ajuster la composition de la caméra (Focale, Profondeur de champ).",
+            "creative_output": "Caméra bien placée avec DoF"
+          },
+          {
+            "week": 2,
+            "day_index": 10,
+            "day_name": "Samedi",
+            "task": "SHAP : expliquer les prédictions du meilleur modèle. Visualiser les features importantes.",
+            "output": "Graphiques SHAP",
+            "creative_project": "graphisme",
+            "creative_task": "Affiche — Déclinaison de l'affiche au format carré (réseaux sociaux).",
+            "creative_output": "Déclinaison carrée"
+          },
+          {
+            "week": 2,
+            "day_index": 11,
+            "day_name": "Dimanche",
+            "task": "Récupération : revoir et optimiser.",
+            "output": "Modèle optimisé",
+            "creative_project": "video",
+            "creative_task": "Étalonnage — Utilisation des fenêtres et du tracking pour isoler des zones.",
+            "creative_output": "Corrections secondaires"
+          },
+          {
+            "week": 3,
+            "day_index": 12,
+            "day_name": "Mardi",
+            "task": "Feature engineering avancé. Nouvelles features créatives. Améliorer le leaderboard.",
+            "output": "Features avancées testées",
+            "creative_project": "blender",
+            "creative_task": "Render — Lancer le rendu haute résolution final.",
+            "creative_output": "Image HD générée"
+          },
+          {
+            "week": 3,
+            "day_index": 13,
+            "day_name": "Mercredi",
+            "task": "Pipeline sklearn complet (Pipeline + ColumnTransformer). Code propre et reproductible.",
+            "output": "Pipeline sklearn structuré",
+            "creative_project": "graphisme",
+            "creative_task": "Mockups — Recherche et téléchargement de mockups PSD de qualité.",
+            "creative_output": "Dossier de mockups prêt"
+          },
+          {
+            "week": 3,
+            "day_index": 14,
+            "day_name": "Jeudi",
+            "task": "Dernière soumission Kaggle. Viser le top 50%.",
+            "output": "Soumission finale Kaggle",
+            "creative_project": "video",
+            "creative_task": "Étalonnage — Export du fichier étalonné pour le remonter dans Premiere.",
+            "creative_output": "Fichier vidéo étalonné"
+          },
+          {
+            "week": 3,
+            "day_index": 15,
+            "day_name": "Vendredi",
+            "task": "Nettoyer le notebook. Ajouter des commentaires et des visualisations claires.",
+            "output": "Notebook Kaggle publiable",
+            "creative_project": "blender",
+            "creative_task": "Render — Générer les passes de rendu (Mist, Emission, Z-depth).",
+            "creative_output": "Passes de rendu exportées"
+          },
+          {
+            "week": 3,
+            "day_index": 16,
+            "day_name": "Samedi",
+            "task": "Publier le notebook sur Kaggle (profil public). Créer le repo GitHub.",
+            "output": "Notebook public + repo GitHub",
+            "creative_project": "graphisme",
+            "creative_task": "Mockups — Intégration du logo sur un mockup de carte de visite.",
+            "creative_output": "Mockup carte de visite"
+          },
+          {
+            "week": 3,
+            "day_index": 17,
+            "day_name": "Dimanche",
+            "task": "Récupération totale. Revoir le parcours depuis le Sprint 1.",
+            "output": "🏆 Top 50% Kaggle Titanic atteint",
+            "creative_project": "video",
+            "creative_task": "Son — Mixage audio de la musique et des voix/effets.",
+            "creative_output": "Niveaux sonores équilibrés"
+          }
+        ]
+      },
+      "resources": {
+        "data": [
+          {
+            "name": "Python Graph Gallery",
+            "url": "https://python-graph-gallery.com",
+            "desc": "Tous les types de graphes"
+          },
+          {
+            "name": "Kaggle Data Viz",
+            "url": "https://www.kaggle.com/learn/data-visualization",
+            "desc": "Cours interactif"
+          },
+          {
+            "name": "Kaggle Intro ML",
+            "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+            "desc": "Fondations ML"
+          },
+          {
+            "name": "Titanic Competition",
+            "url": "https://www.kaggle.com/competitions/titanic",
+            "desc": "La compétition"
+          }
+        ],
+        "creative": [
+          {
+            "name": "Vimeo Staff Picks",
+            "url": "https://vimeo.com/channels/staffpicks",
+            "desc": "Inspiration motion"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "title": "Portfolio Data GitHub",
+      "duration_weeks": 2,
+      "challenge": "Publier 2 projets data complets sur GitHub avec README professionnel, visualisations, et conclusions FR/EN.",
+      "track_data": {
+        "skills": [
+          "Git avancé",
+          "Branches",
+          "Pull Requests",
+          "Documentation",
+          "Portfolio",
+          "Pipeline end-to-end"
+        ],
+        "days": [
+          {
+            "week": 1,
+            "day_index": 0,
+            "day_name": "Mardi",
+            "task": "Git avancé : branches (git branch, checkout, switch). Créer une branche feature sur un repo.",
+            "output": "Première branche Git créée et mergée",
+            "creative_project": "blender",
+            "creative_task": "Post-prod — Importer le rendu et les passes dans Photoshop.",
+            "creative_output": "Fichier PSD préparé"
+          },
+          {
+            "week": 1,
+            "day_index": 1,
+            "day_name": "Mercredi",
+            "task": "Pull Request : créer une PR sur GitHub. Merge. Résoudre un conflit simple.",
+            "output": "Première PR mergée",
+            "creative_project": "graphisme",
+            "creative_task": "Mockups — Intégration sur un mockup de papeterie ou packaging.",
+            "creative_output": "Mockup papeterie"
+          },
+          {
+            "week": 1,
+            "day_index": 2,
+            "day_name": "Jeudi",
+            "task": "Projet 1 : choisir un dataset intéressant. Analyse exploratoire complète.",
+            "output": "EDA Projet 1",
+            "creative_project": "video",
+            "creative_task": "Son — Ajout d'effets sonores (Sound Design - Whoosh, impacts).",
+            "creative_output": "Sound design intégré"
+          },
+          {
+            "week": 1,
+            "day_index": 3,
+            "day_name": "Vendredi",
+            "task": "Projet 1 : modélisation + visualisations + conclusions.",
+            "output": "Modèle + visualisations Projet 1",
+            "creative_project": "blender",
+            "creative_task": "Post-prod — Ajuster le contraste et la colorimétrie.",
+            "creative_output": "Correction colorimétrique globale"
+          },
+          {
+            "week": 1,
+            "day_index": 4,
+            "day_name": "Samedi",
+            "task": "Projet 1 : README structuré (description, résultats, images, comment reproduire). Badges GitHub.",
+            "output": "README pro Projet 1",
+            "creative_project": "graphisme",
+            "creative_task": "Mockups — Intégration de l'affiche dans un mockup urbain.",
+            "creative_output": "Mockup affiche rue"
+          },
+          {
+            "week": 1,
+            "day_index": 5,
+            "day_name": "Dimanche",
+            "task": "Publier Projet 1. Récupération.",
+            "output": "Projet 1 publié",
+            "creative_project": "video",
+            "creative_task": "Export — Vérification globale de la vidéo (rythme, erreurs, couleurs).",
+            "creative_output": "Visionnage de contrôle"
+          },
+          {
+            "week": 2,
+            "day_index": 6,
+            "day_name": "Mardi",
+            "task": "Projet 2 : nouveau dataset. Pipeline complet (load → clean → analyze → model → visualize).",
+            "output": "Pipeline Projet 2 structuré",
+            "creative_project": "blender",
+            "creative_task": "Post-prod — Ajouter des effets (Glow, Vignette, Grain).",
+            "creative_output": "Effets de post-production ajoutés"
+          },
+          {
+            "week": 2,
+            "day_index": 7,
+            "day_name": "Mercredi",
+            "task": "Projet 2 : analyse complète + modélisation.",
+            "output": "Analyse Projet 2",
+            "creative_project": "graphisme",
+            "creative_task": "Présentation — Création de la planche de présentation Behance (Layout).",
+            "creative_output": "Mise en page Behance"
+          },
+          {
+            "week": 2,
+            "day_index": 8,
+            "day_name": "Jeudi",
+            "task": "Projet 2 : conclusions en français ET en anglais.",
+            "output": "Conclusions bilingues",
+            "creative_project": "video",
+            "creative_task": "Export — Configuration de l'export haute qualité (H.264/H.265).",
+            "creative_output": "Export mp4 lancé"
+          },
+          {
+            "week": 2,
+            "day_index": 9,
+            "day_name": "Vendredi",
+            "task": "README Projet 2. Publier sur Kaggle (notebook public).",
+            "output": "Projet 2 publié GitHub + Kaggle",
+            "creative_project": "blender",
+            "creative_task": "Post-prod — Exporter l'image finale pour le portfolio.",
+            "creative_output": "Rendu final portfolio"
+          },
+          {
+            "week": 2,
+            "day_index": 10,
+            "day_name": "Samedi",
+            "task": "Profil GitHub : bio, photo, pins des meilleurs repos. Profil Kaggle à jour.",
+            "output": "Profils GitHub et Kaggle professionnels",
+            "creative_project": "graphisme",
+            "creative_task": "Présentation — Finalisation de l'identité visuelle et export final.",
+            "creative_output": "Projet Graphisme complet"
+          },
+          {
+            "week": 2,
+            "day_index": 11,
+            "day_name": "Dimanche",
+            "task": "Dernier tour. Vérifier que tout est publié et propre. Célébrer.",
+            "output": "🏆 Portfolio Data complet publié",
+            "creative_project": "video",
+            "creative_task": "Export — Vérification du fichier final et publication.",
+            "creative_output": "Vidéo 60s publiée"
+          }
+        ]
+      },
+      "resources": {
+        "data": [
+          {
+            "name": "GitHub Profile README",
+            "url": "https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile",
+            "desc": "Personnaliser le profil"
+          }
+        ],
+        "creative": [
+          {
+            "name": "Vimeo Staff Picks",
+            "url": "https://vimeo.com/channels/staffpicks",
+            "desc": "Inspiration finale"
+          }
+        ]
+      }
+    }
+  ],
+  "languages": {
+    "korean": {
+      "daily_minutes": 15,
+      "progression": [
+        "Hangul — consonnes de base (ㄱㄴㄷㄹ...)",
+        "Hangul — voyelles de base (ㅏㅓㅗㅜ...)",
+        "Hangul — consonnes doubles + voyelles composées",
+        "Syllabes — combiner consonnes et voyelles",
+        "Vocabulaire — 20 premiers mots essentiels",
+        "Vocabulaire — 50 mots (salutations, nombres, couleurs)",
+        "Vocabulaire — 80 mots (nourriture, lieux, temps)",
+        "Vocabulaire — 100 mots courants",
+        "Phrases courtes — se présenter",
+        "Phrases courtes — au restaurant, au magasin",
+        "Oral — enregistrer 2 min de présentation",
+        "Oral — enregistrer 5 min sur un sujet libre"
+      ],
+      "resources": [
+        {
+          "name": "Anki",
+          "url": "https://apps.ankiweb.net",
+          "desc": "Flashcards — Deck ID: 4066961604"
+        },
+        {
+          "name": "Talk To Me In Korean",
+          "url": "https://talktomeinkorean.com",
+          "desc": "Grammaire gratuite"
+        },
+        {
+          "name": "How To Study Korean",
+          "url": "https://www.howtostudykorean.com/unit0",
+          "desc": "Hangul de base"
+        }
+      ]
+    },
+    "english_tech": {
+      "daily_minutes": 15,
+      "task": "15 termes data/créatif par session, usage dans 1 vraie phrase. 1 article Towards Data Science par semaine.",
+      "resources": [
+        {
+          "name": "Google ML Glossary",
+          "url": "https://developers.google.com/machine-learning/glossary",
+          "desc": "Termes ML"
+        },
+        {
+          "name": "Towards Data Science",
+          "url": "https://towardsdatascience.com",
+          "desc": "Articles data"
+        }
+      ]
+    }
+  },
+  "blocked_protocol": {
+    "title": "🚧 Protocole — Je suis bloqué",
+    "subtitle": "Règle des 20 minutes — dans cet ordre exact :",
+    "steps": [
+      {
+        "number": 1,
+        "action": "Reformuler le problème en français simple à voix haute",
+        "icon": "🗣️"
+      },
+      {
+        "number": 2,
+        "action": "Copier-coller l'erreur exacte dans Google",
+        "icon": "🔍"
+      },
+      {
+        "number": 3,
+        "action": "Stack Overflow (pour le code)",
+        "url": "https://stackoverflow.com",
+        "icon": "📚"
+      },
+      {
+        "number": 4,
+        "action": "Reddit selon le sujet",
+        "subreddits": [
+          {
+            "topic": "Python/Data",
+            "subs": "r/learnpython ou r/learnSQL"
+          },
+          {
+            "topic": "Blender",
+            "subs": "r/blenderhelp"
+          },
+          {
+            "topic": "Motion design",
+            "subs": "r/AfterEffects ou r/VideoEditing"
+          }
+        ],
+        "icon": "💬"
+      },
+      {
+        "number": 5,
+        "action": "En dernier recours : Claude AI ou ChatGPT — MAIS toujours demander l'EXPLICATION, jamais juste la réponse.",
+        "icon": "🤖"
+      }
+    ]
+  },
+  "cog_soir": {
+    "time": "18:00",
+    "duration_minutes": 20,
+    "description": "Récupération active — pas de lecture. Uniquement restitution de mémoire + 3 flashcards Anki.",
+    "tasks": [
+      "Restituer de mémoire les 3 concepts clés du jour",
+      "3 flashcards Anki (coréen ou termes techniques)",
+      "1 phrase en anglais technique avec un terme appris"
+    ]
+  },
+  "onboarding_checklist": {
+    "data": [
+      {
+        "id": "python",
+        "label": "Python 3.11+",
+        "url": "https://www.python.org/downloads"
+      },
+      {
+        "id": "vscode",
+        "label": "VS Code",
+        "url": "https://code.visualstudio.com"
+      },
+      {
+        "id": "vscode_python",
+        "label": "Extension VS Code \"Python\" (Microsoft)",
+        "url": "https://marketplace.visualstudio.com/items?itemName=ms-python.python"
+      },
+      {
+        "id": "pip_packages",
+        "label": "pip install pandas numpy matplotlib seaborn plotly",
+        "url": null
+      },
+      {
+        "id": "postgresql",
+        "label": "PostgreSQL",
+        "url": "https://www.postgresql.org/download"
+      },
+      {
+        "id": "dbeaver",
+        "label": "DBeaver (interface PostgreSQL)",
+        "url": "https://dbeaver.io"
+      },
+      {
+        "id": "kaggle",
+        "label": "Compte Kaggle",
+        "url": "https://www.kaggle.com"
+      },
+      {
+        "id": "github",
+        "label": "Compte GitHub",
+        "url": "https://github.com"
+      },
+      {
+        "id": "git",
+        "label": "Git",
+        "url": "https://git-scm.com/downloads"
+      }
+    ],
+    "creative": [
+      {
+        "id": "blender",
+        "label": "Blender",
+        "url": "https://www.blender.org/download"
+      },
+      {
+        "id": "adobe_cc",
+        "label": "Adobe Creative Cloud (Illustrator, Photoshop, Premiere Pro, After Effects)",
+        "url": null
+      },
+      {
+        "id": "davinci",
+        "label": "DaVinci Resolve",
+        "url": "https://www.blackmagicdesign.com"
+      },
+      {
+        "id": "anki",
+        "label": "Anki",
+        "url": "https://apps.ankiweb.net"
+      }
+    ],
+    "languages": [
+      {
+        "id": "anki_korean",
+        "label": "Deck Anki coréen installé (ID: 4066961604)",
+        "url": null
+      },
+      {
+        "id": "medium",
+        "label": "Compte Medium (anglais technique)",
+        "url": "https://medium.com"
+      }
+    ]
+  },
+  "badges": [
+    {
+      "id": "git_master",
+      "name": "Git Master",
+      "icon": "🔧",
+      "sprint": 1,
+      "track": "data"
+    },
+    {
+      "id": "sql_warrior",
+      "name": "SQL Warrior",
+      "icon": "🗄️",
+      "sprint": 2,
+      "track": "data"
+    },
+    {
+      "id": "pandas_pro",
+      "name": "Pandas Pro",
+      "icon": "🐼",
+      "sprint": 3,
+      "track": "data"
+    },
+    {
+      "id": "math_bridge",
+      "name": "Math Bridge",
+      "icon": "🧮",
+      "sprint": 4,
+      "track": "data"
+    },
+    {
+      "id": "kaggle_competitor",
+      "name": "Kaggle Competitor",
+      "icon": "🏅",
+      "sprint": 5,
+      "track": "data"
+    },
+    {
+      "id": "portfolio_ready",
+      "name": "Portfolio Ready",
+      "icon": "💼",
+      "sprint": 6,
+      "track": "data"
+    },
+    {
+      "id": "blender_basics",
+      "name": "Blender Initié",
+      "icon": "🎨",
+      "sprint": 1,
+      "track": "creative"
+    },
+    {
+      "id": "modeler_3d",
+      "name": "Modeleur 3D",
+      "icon": "🧊",
+      "sprint": 2,
+      "track": "creative"
+    },
+    {
+      "id": "texture_artist",
+      "name": "Texture Artist",
+      "icon": "🎭",
+      "sprint": 3,
+      "track": "creative"
+    },
+    {
+      "id": "light_master",
+      "name": "Light Master",
+      "icon": "💡",
+      "sprint": 4,
+      "track": "creative"
+    },
+    {
+      "id": "render_king",
+      "name": "Render King",
+      "icon": "👑",
+      "sprint": 5,
+      "track": "creative"
+    },
+    {
+      "id": "creative_studio",
+      "name": "Creative Studio",
+      "icon": "🚀",
+      "sprint": 6,
+      "track": "creative"
+    },
+    {
+      "id": "streak_7",
+      "name": "7 jours de feu",
+      "icon": "🔥",
+      "sprint": null,
+      "track": "streak"
+    },
+    {
+      "id": "streak_30",
+      "name": "30 jours légendaire",
+      "icon": "⚡",
+      "sprint": null,
+      "track": "streak"
+    }
+  ],
+  "schedule": {
+    "days_per_week": 6,
+    "off_day": "Lundi",
+    "working_days": [
+      "Mardi",
+      "Mercredi",
+      "Jeudi",
+      "Vendredi",
+      "Samedi",
+      "Dimanche"
+    ],
+    "blocks": {
+      "data": {
+        "label": "TRACK DATA",
+        "time": "Matin",
+        "duration_minutes": 90
+      },
+      "creative": {
+        "label": "TRACK CRÉATIF",
+        "time": "Après-midi",
+        "duration_minutes": 90
+      },
+      "langue": {
+        "label": "LANGUE",
+        "time": "Intercalé",
+        "duration_minutes": 15
+      },
+      "cog_soir": {
+        "label": "COG SOIR",
+        "time": "18h00",
+        "duration_minutes": 20
+      }
+    }
+  },
+  "creative_projects": {
+    "blender": {
+      "name": "Blender",
+      "icon": "🧊",
+      "color": "#E87D0D"
+    },
+    "graphisme": {
+      "name": "Graphisme",
+      "icon": "🎨",
+      "color": "#FF9A00"
+    },
+    "video": {
+      "name": "Vidéo",
+      "icon": "🎬",
+      "color": "#9999FF"
+    }
+  }
+}

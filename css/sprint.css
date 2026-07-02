@@ -1,0 +1,215 @@
+/* ═══════════════════════════════════════════════════
+   SPRINT VIEW — Carte de Mission
+   ═══════════════════════════════════════════════════ */
+
+.sprint__header {
+  margin-bottom: var(--space-24);
+}
+
+.sprint__current-label {
+  font-size: var(--fs-label);
+  font-weight: var(--fw-semibold);
+  text-transform: uppercase;
+  letter-spacing: var(--ls-label);
+  color: var(--accent-data);
+  margin-bottom: var(--space-8);
+}
+
+.sprint__title {
+  font-size: var(--fs-title);
+  font-weight: var(--fw-bold);
+  margin-bottom: var(--space-8);
+}
+
+.sprint__challenge {
+  font-size: var(--fs-body);
+  color: var(--text-secondary);
+  line-height: 1.6;
+  padding: var(--space-16);
+  background: var(--bg-card);
+  border-radius: var(--radius-md);
+  border-left: 3px solid var(--accent-data);
+}
+
+/* ── Progress ── */
+.sprint__progress {
+  margin: var(--space-24) 0;
+}
+
+.sprint__progress-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-8);
+}
+
+.sprint__progress-text {
+  font-size: var(--fs-small);
+  color: var(--text-secondary);
+}
+
+.sprint__progress-pct {
+  font-size: var(--fs-small);
+  font-weight: var(--fw-bold);
+  color: var(--accent-data);
+  font-variant-numeric: tabular-nums;
+}
+
+.sprint__deadline {
+  font-size: var(--fs-label);
+  color: var(--text-muted);
+  margin-top: var(--space-8);
+}
+
+/* ── Days Grid ── */
+.sprint__days {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+}
+
+.sprint__day {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-16);
+  padding: var(--space-16);
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  transition: all var(--transition-base);
+  position: relative;
+}
+
+.sprint__day:hover {
+  border-color: var(--border-focus);
+  background: var(--bg-card-hover);
+}
+
+.sprint__day.current {
+  border-color: var(--accent-data);
+  box-shadow: 0 0 0 1px var(--accent-data-glow);
+}
+
+.sprint__day.completed {
+  border-color: var(--color-success);
+  opacity: 0.85;
+}
+
+.sprint__day.completed:hover {
+  opacity: 1;
+}
+
+/* ── Day indicator circle ── */
+.sprint__day-number {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--fs-small);
+  font-weight: var(--fw-bold);
+  flex-shrink: 0;
+  background: var(--bg-primary);
+  color: var(--text-secondary);
+  border: 2px solid var(--border-subtle);
+}
+
+.sprint__day.current .sprint__day-number {
+  background: var(--accent-data);
+  color: var(--text-on-accent);
+  border-color: var(--accent-data);
+}
+
+.sprint__day.completed .sprint__day-number {
+  background: var(--color-success);
+  color: var(--text-on-accent);
+  border-color: var(--color-success);
+}
+
+.sprint__day-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.sprint__day-name {
+  font-size: var(--fs-label);
+  text-transform: uppercase;
+  letter-spacing: var(--ls-label);
+  color: var(--text-muted);
+  margin-bottom: var(--space-4);
+}
+
+.sprint__day.current .sprint__day-name {
+  color: var(--accent-data);
+}
+
+.sprint__day-task {
+  font-size: var(--fs-small);
+  color: var(--text-primary);
+  line-height: 1.4;
+}
+
+.sprint__day-output-text {
+  font-size: var(--fs-label);
+  color: var(--text-muted);
+  margin-top: var(--space-6);
+  font-style: italic;
+}
+
+/* ── Week Separator ── */
+.sprint__week-label {
+  font-size: var(--fs-label);
+  font-weight: var(--fw-semibold);
+  text-transform: uppercase;
+  letter-spacing: var(--ls-label);
+  color: var(--text-muted);
+  margin: var(--space-20) 0 var(--space-8);
+  padding-bottom: var(--space-8);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+/* ── Sprint Selector ── */
+.sprint__selector {
+  display: flex;
+  gap: var(--space-8);
+  margin-bottom: var(--space-24);
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding-bottom: var(--space-4);
+}
+
+.sprint__selector::-webkit-scrollbar {
+  display: none;
+}
+
+.sprint__selector-btn {
+  padding: var(--space-8) var(--space-16);
+  border-radius: var(--radius-full);
+  font-size: var(--fs-label);
+  font-weight: var(--fw-semibold);
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all var(--transition-fast);
+  font-family: var(--font-family);
+}
+
+.sprint__selector-btn:hover {
+  border-color: var(--border-focus);
+}
+
+.sprint__selector-btn.active {
+  background: var(--accent-data);
+  color: var(--text-on-accent);
+  border-color: var(--accent-data);
+}
+
+/* ── Creative track in sprint ── */
+.sprint__creative-section {
+  margin-top: var(--space-24);
+}
