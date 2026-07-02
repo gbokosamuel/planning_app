@@ -6,6 +6,7 @@ const Sprint = {
   _selectedSprintId: null,
 
   async render(container) {
+    const startDate = State.getStartDate();
     const position = startDate ? Data.getCurrentPosition(startDate) : { sprintId: 1, dayIndex: 0 };
     let initialSprintId = this._selectedSprintId || position.sprintId;
     
@@ -41,9 +42,9 @@ const Sprint = {
         isLocked = !State.isSprintCompleted(sprints[index - 1].id);
       }
 
-      return \`<button class="sprint__selector-btn \${isActive ? 'active' : ''} \${isLocked ? 'locked' : ''}" data-sprint-id="\${s.id}" \${isLocked ? 'disabled style="opacity: 0.5; cursor: not-allowed;"' : ''}>
-        \${isLocked ? '🔒 ' : (isDone ? '✓ ' : '')}S\${s.id}
-      </button>\`;
+      return `<button class="sprint__selector-btn ${isActive ? 'active' : ''} ${isLocked ? 'locked' : ''}" data-sprint-id="${s.id}" ${isLocked ? 'disabled style="opacity: 0.5; cursor: not-allowed;"' : ''}>
+        ${isLocked ? '🔒 ' : (isDone ? '✓ ' : '')}S${s.id}
+      </button>`;
     }).join('');
 
     // Group days by week
