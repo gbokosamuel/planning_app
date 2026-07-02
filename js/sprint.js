@@ -6,11 +6,22 @@ const Sprint = {
   _selectedSprintId: null,
 
   async render(container) {
-    const startDate = State.getStartDate();
     const position = startDate ? Data.getCurrentPosition(startDate) : { sprintId: 1, dayIndex: 0 };
-    this._selectedSprintId = this._selectedSprintId || position.sprintId;
-
+    let initialSprintId = this._selectedSprintId || position.sprintId;
+    
     const sprints = Data.getSprints();
+    
+    // Check for locked sprints and clamp selected sprint
+    let maxUnlockedSprintId = 1;
+    for (let i = 0; i < sprints.length; i++) {
+      if (i > 0 && !State.isSprintCompleted(sprints[i - 1].id)) break;
+      maxUnlockedSprintId = sprints[i].id;
+    }
+    if (initialSprintId > maxUnlockedSprintId) {
+      initialSprintId = maxUnlockedSprintId;
+    }
+    this._selectedSprintId = initialSprintId;
+
     const sprint = Data.getSprint(this._selectedSprintId);
     if (!sprint) return;
     const creativeProjects = Data.getCreativeProjects();
@@ -21,12 +32,18 @@ const Sprint = {
     const endDate = startDate ? Data.getSprintEndDate(this._selectedSprintId, startDate) : null;
 
     // Sprint selector pills
-    const selectorHtml = sprints.map(s => {
+    const selectorHtml = sprints.map((s, index) => {
       const isActive = s.id === this._selectedSprintId;
       const isDone = State.isSprintCompleted(s.id);
-      return `<button class="sprint__selector-btn ${isActive ? 'active' : ''}" data-sprint-id="${s.id}">
-        ${isDone ? '✓ ' : ''}S${s.id}
-      </button>`;
+      
+      let isLocked = false;
+      if (index > 0) {
+        isLocked = !State.isSprintCompleted(sprints[index - 1].id);
+      }
+
+      return \`<button class="sprint__selector-btn \${isActive ? 'active' : ''} \${isLocked ? 'locked' : ''}" data-sprint-id="\${s.id}" \${isLocked ? 'disabled style="opacity: 0.5; cursor: not-allowed;"' : ''}>
+        \${isLocked ? '🔒 ' : (isDone ? '✓ ' : '')}S\${s.id}
+      </button>\`;
     }).join('');
 
     // Group days by week
@@ -43,6 +60,8 @@ const Sprint = {
         const isCompleted = State.isDayCompleted(this._selectedSprintId, day.day_index);
         const isCurrent = this._selectedSprintId === position.sprintId && day.day_index === position.dayIndex;
         const completedData = isCompleted ? State.getCompletedDays()[`S${this._selectedSprintId}-D${day.day_index}`] : null;
+        const actualDate = Data.getCalendarDate(this._selectedSprintId, day.day_index, State.getStartDate());
+        const dayNameStr = Utils.capitalize(Utils.getDayName(actualDate));
 
         return `
           <div class="sprint__day ${isCompleted ? 'completed' : ''} ${isCurrent ? 'current' : ''}">
@@ -50,7 +69,7 @@ const Sprint = {
               ${isCompleted ? '✓' : day.day_index + 1}
             </div>
             <div class="sprint__day-content">
-              <div class="sprint__day-name">${day.day_name} S${day.week}</div>
+              <div class="sprint__day-name">${dayNameStr} S${day.week}</div>
               
               <div style="margin-top: 8px;">
                 <span class="badge badge--data" style="font-size: 10px;">DATA</span>

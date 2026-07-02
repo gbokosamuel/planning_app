@@ -118,6 +118,38 @@ const Data = {
   },
 
   /**
+   * Get the actual calendar date for a given sprint and day index
+   */
+  getCalendarDate(sprintId, dayIndex, startDate) {
+    if (!startDate) return new Date();
+    
+    const sprints = this.getSprints();
+    let cumulativeWorkingDays = 0;
+    
+    for (const sprint of sprints) {
+      if (sprint.id === sprintId) {
+        cumulativeWorkingDays += dayIndex;
+        break;
+      }
+      cumulativeWorkingDays += sprint.track_data.days.length;
+    }
+    
+    let calendarDays = 0;
+    let workingCount = 0;
+    const start = new Date(startDate);
+    
+    while (workingCount < cumulativeWorkingDays) {
+      calendarDays++;
+      const d = Utils.addDays(start, calendarDays);
+      if (d.getDay() !== 1) { // Skip Mondays
+        workingCount++;
+      }
+    }
+    
+    return Utils.addDays(start, calendarDays);
+  },
+
+  /**
    * Get the estimated end date for a sprint
    */
   getSprintEndDate(sprintId, startDate) {

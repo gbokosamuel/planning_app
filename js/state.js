@@ -283,6 +283,17 @@ const State = {
   getProjectProgress(projectId) {
     const completed = this.getCompletedDays();
     let completedCount = 0;
+    let totalCount = 0;
+    
+    // Calculate total count dynamically
+    const sprints = Data.getSprints();
+    for (const sprint of sprints) {
+      for (const day of sprint.track_data.days) {
+        if (day.creative_project === projectId) {
+          totalCount++;
+        }
+      }
+    }
     
     for (const key in completed) {
       if (completed[key].completed) {
@@ -297,6 +308,6 @@ const State = {
         }
       }
     }
-    return { completed: completedCount, total: 26 }; // 26 is the total number of days per project
+    return { completed: completedCount, total: totalCount };
   }
 };

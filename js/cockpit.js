@@ -37,6 +37,9 @@ const Cockpit = {
       dayDots += `<div class="cockpit__day-dot ${isCompleted ? 'completed' : ''} ${isCurrent ? 'current' : ''}"></div>`;
     }
 
+    const actualDate = Data.getCalendarDate(sprintId, dayIndex, startDate);
+    const dayNameStr = Utils.capitalize(Utils.getDayName(actualDate));
+
     container.innerHTML = `
       ${showWelcomeBack ? `
         <div class="cockpit__welcome-back">
@@ -63,7 +66,7 @@ const Cockpit = {
       ` : ''}
 
       <div class="cockpit__header">
-        <div class="cockpit__greeting">${Utils.capitalize(Utils.getDayName(new Date()))} · Sprint ${sprintId}</div>
+        <div class="cockpit__greeting">${dayNameStr} · Sprint ${sprintId}</div>
         <div class="cockpit__sprint-title">${Utils.escapeHtml(sprint.title)}</div>
         <div class="cockpit__sprint-subtitle">${Utils.escapeHtml(sprint.challenge)}</div>
         <div class="cockpit__day-indicator">${dayDots}</div>
@@ -83,7 +86,7 @@ const Cockpit = {
             <div class="card card--data">
               <div class="card__title">
                 <span class="badge badge--data">DATA</span>
-                ${Utils.escapeHtml(day.day_name)} S${day.week}
+                ${dayNameStr} S${day.week}
               </div>
               <div class="card__description">${Utils.escapeHtml(day.task)}</div>
               <div class="card__output card__output--data">${Utils.escapeHtml(day.output)}</div>
