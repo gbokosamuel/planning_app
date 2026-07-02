@@ -147,34 +147,34 @@
           {
             "name": "Learn Git Branching",
             "url": "https://learngitbranching.js.org",
-            "desc": "Interactif, visuel"
+            "desc": "Git"
           },
           {
             "name": "GitHub",
             "url": "https://github.com",
-            "desc": "Créer un compte"
+            "desc": "Repos"
           },
           {
             "name": "Codewars Python",
             "url": "https://www.codewars.com/kata/search/python",
-            "desc": "Commencer kyu 7-8"
+            "desc": "Kyu 7-8 Fundamentals"
           },
           {
             "name": "Exercism Python",
             "url": "https://exercism.org/tracks/python",
-            "desc": "Track avec feedback"
+            "desc": "Exercices"
           },
           {
             "name": "Kaggle Learn Python",
             "url": "https://www.kaggle.com/learn/python",
-            "desc": "Interactif, navigateur"
+            "desc": "Tutoriels"
           }
         ],
         "creative": [
           {
-            "name": "Pinterest 3D Renders",
-            "url": "https://pinterest.com/search/pins/?q=3D%20product%20render%20blender",
-            "desc": "Inspiration visuelle"
+            "name": "Pinterest",
+            "url": "https://pinterest.com",
+            "desc": "Recherche: 3D product render blender"
           },
           {
             "name": "PolyHaven",
@@ -184,7 +184,22 @@
           {
             "name": "CGFastTrack",
             "url": "https://www.youtube.com/@CGFastTrack",
-            "desc": "Chaîne référence Blender"
+            "desc": "Tutoriels Blender"
+          },
+          {
+            "name": "Behance",
+            "url": "https://www.behance.net",
+            "desc": "Inspiration Illustrator/Photoshop"
+          },
+          {
+            "name": "LogoMoose",
+            "url": "https://www.logomoose.com",
+            "desc": "Logos à vectoriser"
+          },
+          {
+            "name": "Vimeo Staff Picks",
+            "url": "https://vimeo.com/channels/staffpicks",
+            "desc": "Inspiration motion (max 5 min)"
           }
         ],
         "git_commands": [
@@ -340,29 +355,29 @@
           {
             "name": "SQLZoo",
             "url": "https://sqlzoo.net/wiki/SQL_Tutorial",
-            "desc": "SELECT → JOIN → Aggregates"
+            "desc": "Tutoriel SQL"
           },
           {
-            "name": "pgExercises",
+            "name": "pgexercises",
             "url": "https://pgexercises.com",
-            "desc": "PostgreSQL spécifique"
+            "desc": "PostgreSQL"
           },
           {
-            "name": "LeetCode SQL",
+            "name": "LeetCode SQL Easy",
             "url": "https://leetcode.com/problemset/database",
-            "desc": "Commencer Easy"
+            "desc": "Exercices SQL"
           },
           {
             "name": "ExcelJet",
             "url": "https://exceljet.net/functions",
-            "desc": "Référence XLOOKUP, TCD"
+            "desc": "Fonctions Excel"
           }
         ],
         "creative": [
           {
             "name": "Behance",
             "url": "https://www.behance.net",
-            "desc": "Inspiration design à reproduire"
+            "desc": "Inspiration Illustrator/Photoshop"
           },
           {
             "name": "LogoMoose",
@@ -520,19 +535,44 @@
           {
             "name": "Kaggle Learn Pandas",
             "url": "https://www.kaggle.com/learn/pandas",
-            "desc": "Interactif"
+            "desc": "Tutoriel Pandas"
           },
           {
             "name": "100 Pandas Puzzles",
             "url": "https://github.com/ajcr/100-pandas-puzzles",
-            "desc": "Puzzles sans solutions"
+            "desc": "Exercices Pandas"
           }
         ],
         "creative": [
           {
+            "name": "Pinterest",
+            "url": "https://pinterest.com",
+            "desc": "Recherche: 3D product render blender"
+          },
+          {
+            "name": "PolyHaven",
+            "url": "https://polyhaven.com",
+            "desc": "Textures et HDRI gratuits"
+          },
+          {
+            "name": "CGFastTrack",
+            "url": "https://www.youtube.com/@CGFastTrack",
+            "desc": "Tutoriels Blender"
+          },
+          {
             "name": "Behance",
             "url": "https://www.behance.net",
-            "desc": "Inspiration Photoshop"
+            "desc": "Inspiration Illustrator/Photoshop"
+          },
+          {
+            "name": "LogoMoose",
+            "url": "https://www.logomoose.com",
+            "desc": "Logos à vectoriser"
+          },
+          {
+            "name": "Vimeo Staff Picks",
+            "url": "https://vimeo.com/channels/staffpicks",
+            "desc": "Inspiration motion (max 5 min)"
           }
         ]
       }
@@ -678,24 +718,44 @@
           {
             "name": "3Blue1Brown Linear Algebra",
             "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
-            "desc": "MAX 5 min puis coder"
-          },
-          {
-            "name": "Khan Academy Probas",
-            "url": "https://fr.khanacademy.org/math/statistics-probability",
-            "desc": "Exercices, pas vidéos"
+            "desc": "Algèbre linéaire"
           },
           {
             "name": "StatQuest",
             "url": "https://www.youtube.com/@statquest",
-            "desc": "MAX 10 min par concept"
+            "desc": "Statistiques"
           }
         ],
         "creative": [
           {
+            "name": "Pinterest",
+            "url": "https://pinterest.com",
+            "desc": "Recherche: 3D product render blender"
+          },
+          {
+            "name": "PolyHaven",
+            "url": "https://polyhaven.com",
+            "desc": "Textures et HDRI gratuits"
+          },
+          {
+            "name": "CGFastTrack",
+            "url": "https://www.youtube.com/@CGFastTrack",
+            "desc": "Tutoriels Blender"
+          },
+          {
+            "name": "Behance",
+            "url": "https://www.behance.net",
+            "desc": "Inspiration Illustrator/Photoshop"
+          },
+          {
+            "name": "LogoMoose",
+            "url": "https://www.logomoose.com",
+            "desc": "Logos à vectoriser"
+          },
+          {
             "name": "Vimeo Staff Picks",
             "url": "https://vimeo.com/channels/staffpicks",
-            "desc": "Inspiration montage"
+            "desc": "Inspiration motion (max 5 min)"
           }
         ]
       }
@@ -908,29 +968,54 @@
           {
             "name": "Python Graph Gallery",
             "url": "https://python-graph-gallery.com",
-            "desc": "Tous les types de graphes"
+            "desc": "Visualisation"
           },
           {
-            "name": "Kaggle Data Viz",
+            "name": "Kaggle Learn Data Viz",
             "url": "https://www.kaggle.com/learn/data-visualization",
-            "desc": "Cours interactif"
+            "desc": "Tutoriel Viz"
           },
           {
-            "name": "Kaggle Intro ML",
+            "name": "Kaggle Intro to ML",
             "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
-            "desc": "Fondations ML"
+            "desc": "Tutoriel ML"
           },
           {
             "name": "Titanic Competition",
             "url": "https://www.kaggle.com/competitions/titanic",
-            "desc": "La compétition"
+            "desc": "Kaggle"
           }
         ],
         "creative": [
           {
+            "name": "Pinterest",
+            "url": "https://pinterest.com",
+            "desc": "Recherche: 3D product render blender"
+          },
+          {
+            "name": "PolyHaven",
+            "url": "https://polyhaven.com",
+            "desc": "Textures et HDRI gratuits"
+          },
+          {
+            "name": "CGFastTrack",
+            "url": "https://www.youtube.com/@CGFastTrack",
+            "desc": "Tutoriels Blender"
+          },
+          {
+            "name": "Behance",
+            "url": "https://www.behance.net",
+            "desc": "Inspiration Illustrator/Photoshop"
+          },
+          {
+            "name": "LogoMoose",
+            "url": "https://www.logomoose.com",
+            "desc": "Logos à vectoriser"
+          },
+          {
             "name": "Vimeo Staff Picks",
             "url": "https://vimeo.com/channels/staffpicks",
-            "desc": "Inspiration motion"
+            "desc": "Inspiration motion (max 5 min)"
           }
         ]
       }
@@ -1075,16 +1160,41 @@
       "resources": {
         "data": [
           {
-            "name": "GitHub Profile README",
-            "url": "https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile",
-            "desc": "Personnaliser le profil"
+            "name": "Kaggle",
+            "url": "https://www.kaggle.com",
+            "desc": "Profil"
           }
         ],
         "creative": [
           {
+            "name": "Pinterest",
+            "url": "https://pinterest.com",
+            "desc": "Recherche: 3D product render blender"
+          },
+          {
+            "name": "PolyHaven",
+            "url": "https://polyhaven.com",
+            "desc": "Textures et HDRI gratuits"
+          },
+          {
+            "name": "CGFastTrack",
+            "url": "https://www.youtube.com/@CGFastTrack",
+            "desc": "Tutoriels Blender"
+          },
+          {
+            "name": "Behance",
+            "url": "https://www.behance.net",
+            "desc": "Inspiration Illustrator/Photoshop"
+          },
+          {
+            "name": "LogoMoose",
+            "url": "https://www.logomoose.com",
+            "desc": "Logos à vectoriser"
+          },
+          {
             "name": "Vimeo Staff Picks",
             "url": "https://vimeo.com/channels/staffpicks",
-            "desc": "Inspiration finale"
+            "desc": "Inspiration motion (max 5 min)"
           }
         ]
       }
@@ -1430,6 +1540,12 @@
       "name": "Vidéo",
       "icon": "🎬",
       "color": "#9999FF"
+    },
+    "libre": {
+      "id": "libre",
+      "name": "Projet libre",
+      "color": "#888888",
+      "icon": "⭐"
     }
   }
 }

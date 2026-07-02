@@ -150,7 +150,7 @@ const Cockpit = {
       <div class="cockpit__creative-progress mt-24">
         <div class="section-label">PROGRESSION DES PROJETS CRÉATIFS</div>
         <div style="display: flex; flex-direction: column; gap: var(--space-12); margin-top: var(--space-8); background: var(--bg-secondary); padding: var(--space-16); border-radius: var(--radius-md); border: 1px solid var(--border-color);">
-          ${Object.entries(creativeProjects).map(([key, proj]) => {
+          ${Object.entries(creativeProjects).filter(([k, _]) => k !== 'libre').map(([key, proj]) => {
             const prog = State.getProjectProgress(key);
             const pct = prog.total > 0 ? Math.round((prog.completed / prog.total) * 100) : 0;
             return `
